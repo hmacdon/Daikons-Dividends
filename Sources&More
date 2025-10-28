@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Daikons & Dividends</title>
+    <style>
+      body {
+        font-family: "Courier New", monospace;
+      }
+      table {
+        width: 100%;
+      }
+      td {
+        vertical-align: top;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Daikons & Dividends</h1>
+    <h2>an exploration of growth, value, and decay</h2>
+
+    <table>
+      <tr>
+        <td>
+          <h3>Further Readings</h3>
+        </td>
+        <td>
+          <h3>Sources</h3>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
