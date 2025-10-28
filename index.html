@@ -2,32 +2,134 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Daikons & Dividends</title>
     <style>
       body {
         font-family: "Courier New", monospace;
+        margin: 1.5em;
       }
-      table {
-        width: 100%;
+
+      h1, h2, h3 {
+        font-weight: normal;
+        margin-top: 0;
       }
-      td {
-        vertical-align: top;
-        width: 50%;
+
+      .columns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+      }
+
+      .column {
+        flex: 1 1 45%;
+        min-width: 250px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 600px) {
+        .column {
+          flex: 1 1 100%;
+        }
       }
     </style>
   </head>
   <body>
     <h1>Daikons & Dividends</h1>
 
-    <table>
-      <tr>
-        <td>
-          <h3>Further Readings</h3>
-        </td>
-        <td>
-          <h3>Sources</h3>
-        </td>
-      </tr>
-    </table>
+    <div class="columns">
+      
+      <div class="column">
+        <h3>Sources</h3>
+
+        <p>
+          <a href="https://magazine.scienceforthepeople.org/online/dust-bowls-of-empire-review-colonialism/">
+            “The Colonial Rift: A Review of Hannah Holleman's <i>Dust Bowls of Empire</i>” | <i>Science for the People Magazine</i>
+          </a>
+        </p>
+        <p>
+          <a href="https://betterplaneteducation.org.uk/factsheets/seed-saving-who-owns-the-world-s-seeds">
+            “Seed Saving — Who Owns the World's Seeds?” | Better Planet Education
+          </a>
+        </p>
+
+        <p>
+          Interview with Lynn Landes, founder of 
+          <a href="https://www.wildfoodies.org/">Wild Foodies</a>.
+        </p>
+      </div>
+
+      <div class="column">
+        <h3>Further Readings</h3>
+
+        <p>
+          <a href="https://seedsandtheirpeople.podbean.com/e/ep-2-kristyn-leach-and-namu-farm/">
+            <i>Seeds and Their People</i> Podcast — Episode 2: Kristyn Leach and Namu Farm
+          </a>
+        </p>
+
+        <p>
+          <a href="https://www.youtube.com/watch?v=esvycD1O3cM">
+            “The Dark History of Bananas,” John Soluri | TED-Ed
+          </a>
+        </p>
+
+        <p>
+          <a href="https://www.ranker.com/list/how-dole-stole-hawaii/melissa-sartore">
+            “How a Fruit Juice Company Forcefully Stole the Hawaiian Kingdom” Melissa Sartore | <i>Ranker</i>
+          </a>
+        </p>
+<p>
+          <i>Farming While Black: Soul Fire Farm's Practical Guide to Liberation on the Land</i> — Chapter 8: “Seedkeeping”
+        </p>
+        <p>
+          <i>We Are Each Other's Harvest: Celebrating African American Farmers, Land, and Legacy</i>, Natalie Baszile.
+        </p>
+        
+        <p>
+          “Seeds of Doubt,” Elizabeth Kolbert, <i>The New Yorker</i>
+        </p>
+
+        <p>
+          <a href="https://www.foodengineeringmag.com/articles/102795-understanding-the-regulatory-challenges-for-crispr-gene-editing-on-crops">
+            “Understanding the Regulatory Challenges for CRISPR Gene Editing in Crops” | <i>Food Engineering Magazine</i>
+          </a>
+        </p>
+
+        <p>
+          <a href="https://www.nytimes.com/2024/01/22/climate/agriculture-africa-traditional-crops.html">
+            “A 'Revolutionary' Way to Feed the World That's Very Old,” Somini Sengupta | <i>The New York Times</i>
+          </a>
+        </p>
+
+        <p>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/38285873/">
+            “A Whole Earth Approach to Nature-Positive Food: Biodiversity and Agriculture” | <i>PubMed</i>
+          </a>
+        </p>
+
+        <p>
+          <a href="https://whyy.org/articles/alcoholado-kensington-philadelphia-garden-puerto-rican-folk-medicine/">
+            “What Ails You? This Garden in Kensington Mixes a Traditional Puerto Rican Alcoholado Cure” | <i>WHYY</i>
+          </a>
+        </p>
+
+        <p>
+          <a href="https://www.imdb.com/title/tt5971724/">
+            <i>Seed: The Untold Story</i> (Documentary)
+          </a>
+        </p>
+
+        
+      </div>
+    </div>
   </body>
 </html>
